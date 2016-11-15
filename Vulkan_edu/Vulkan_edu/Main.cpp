@@ -1,8 +1,10 @@
-#include<iostream>
+#include"WP_Vulkan.h"
+
+
 
 int main()
 {
-	;
-	std::cout << "hello world" << std::endl;
+	WP_Vulkan obj{};
+	obj.initStructs();
 	return 0;
 }

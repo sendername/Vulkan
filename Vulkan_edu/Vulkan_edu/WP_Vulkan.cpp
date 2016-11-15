@@ -3,8 +3,9 @@
 
 WP_Vulkan::WP_Vulkan()
 {
-	this->pCreateInfo = new VkApplicationInfo();
-	this->pInstCrtInfo = new VkInstanceCreateInfo();
+	pCreateInfo = new VkApplicationInfo();
+	pInstCrtInfo = new VkInstanceCreateInfo();
+	pInstance = new VkInstance();
 }
 
 WP_Vulkan::~WP_Vulkan()
